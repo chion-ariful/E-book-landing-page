@@ -1,0 +1,157 @@
+/* For Tablet */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  /* Header section*/
+  .header_section .container .nav-content .logo img {
+    width: 68px;
+  }
+  /* Hero section css */
+  .hero {
+    padding: 48px 0px;
+  }
+  .hero .inner-hero {
+    gap: 48px;
+  }
+  .hero .inner-hero .left-hero h4 {
+    font-size: 18px;
+  }
+  .hero .inner-hero .left-hero h1 {
+    margin: 8px 0px;
+  }
+  .hero .inner-hero .left-hero p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero .inner-hero .left-hero .price {
+    margin: 20px 0px 24px;
+    font-size: 24px;
+  }
+  .hero .inner-hero .right-hero img {
+    max-height: 580px;
+    border-radius: 32px;
+  }
+  /* About section css */
+  .about {
+    padding: 48px 0px;
+  }
+  .about .inner-about {
+    display: block;
+  }
+  .about .inner-about .left-about {
+    width: 60%;
+  }
+  .about .inner-about .right-about {
+    width: 100%;
+    margin-top: 32px;
+  }
+  /* Feature Css */
+  .feature {
+    padding: 48px 0px;
+  }
+  /* Pricing feature */
+  .pricing {
+    padding: 48px 0px;
+  }
+  .pricing .inner-price .price-detail {
+    gap: 20px;
+  }
+
+  /* Reviews section css */
+  .reviews {
+    padding: 48px 0px;
+  }
+  .reviews .inner-reviews .box-reviews {
+    gap: 20px;
+  }
+  .reviews .inner-reviews .box-reviews .review01,
+  .review02,
+  .review03 {
+    padding: 24px;
+  }
+  /* Form part Css */
+  .order {
+    padding: 48px 0px;
+  }
+  /* Footer Css */
+
+  .footer-section {
+    padding: 48px 0px 16px;
+  }
+  .footer-section .inner-footer .top-footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px 48px;
+  }
+}
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .hero .inner-hero {
+    display: block;
+  }
+  .hero .inner-hero .left-hero {
+    width: 100%;
+  }
+  .hero .inner-hero .right-hero {
+    width: 100%;
+    margin-top: 32px;
+  }
+  /* About section css */
+  .about .inner-about .left-about {
+    width: 100%;
+  }
+  /* Feature Css */
+  .feature .inner-feature .details-feature {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  /* Pricing feature */
+  .pricing .inner-price .top-detail p {
+    margin: 8px 0px 32px;
+    width: 280px;
+  }
+  .pricing .inner-price .price-detail {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+  }
+  /* Reviews section css */
+  .reviews .inner-reviews h3 {
+    margin-bottom: 32px;
+  }
+  .reviews .inner-reviews .box-reviews {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  /* Form part Css */
+  .order .inner-order .form {
+    margin-top: 32px;
+  }
+  /* Footer part */
+  .footer-section .inner-footer .top-footer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px 32px;
+  }
+}
