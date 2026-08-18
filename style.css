@@ -155,6 +155,11 @@ body{
     
 }
 
+.menu-toggle{
+  display: none;
+  cursor: pointer;
+}
+
 /* Hero section css */
 .hero{
    width: 100%;
