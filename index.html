@@ -28,6 +28,19 @@
             <div class="btn">
               <a href="#contact">Buy Now</a>
             </div>
+            <div class="menu-toggle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="38px"
+                viewBox="0 -960 960 960"
+                width="38px"
+                fill="#e3e3e3"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </nav>
@@ -331,6 +344,26 @@
         </div>
       </div>
     </footer>
+    
+    <!-- Toggle mobile menu script -->
+    <script>
+      let menuToggle = document.querySelector(".menu-toggle");
+      let navLinks = document.querySelector(".menu");
+      // 1. Select all the links inside your menu
+      let individualLinks = document.querySelectorAll(".menu a");
 
+      // Toggle menu when hamburger icon is clicked
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+
+      // 2. Close menu when any individual link is clicked
+      individualLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
+    
   </body>
 </html>
